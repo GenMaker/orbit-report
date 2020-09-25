@@ -12,4 +12,12 @@ launchDate: string;
         this.orbitType = orbitType;
         this.operational = operational;
     }
+    public shouldShowWarning(){
+        if(this.type==="Space Debris")
+        {
+            return true
+        }else{
+            return false
+        }
+    }
 }
